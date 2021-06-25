@@ -1,0 +1,25 @@
+Installation:
+
+pip install pulumi pulumi_aws
+brew install pulumi
+
+1. Backend
+
+pulumi login file:///Users/ysharma/Downloads/pulumi-state-backend
+
+Others can be:
+
+AWS S3:
+    $ pulumi login s3://my-pulumi-state-bucket
+
+GCP GCS:
+    $ pulumi login gs://my-pulumi-state-bucket
+
+Azure Blob:
+    $ pulumi login azblob://my-pulumi-state-bucket
+
+2. pulumi new aws-python
+
+3. pulumi preview - (equivalent to terraform plan)
+4. pulumi up -  (equivalent to terraform apply)
+5. pulumi destroy -  (equivalent to terraform destroy)

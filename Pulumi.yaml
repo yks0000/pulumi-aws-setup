@@ -1,0 +1,7 @@
+name: pulumi-aws-setup
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Explore Python Pulumi
+
